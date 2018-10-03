@@ -1,6 +1,6 @@
 1) El producto más grande en una seria
 
-""" A partir de t iteraciones, muestra el producto mas grande en una serie de k digitos consecutivos en un número de N digitos.
+""" El producto más grande en una serie A partir de 't' iteraciones, encontrar el producto más grande en una serie de 'k' digitos consecutivos en un número de 'n' digitos.
 
     # Si las entradas son correctas, nos mostrará el producto mas grande
     
@@ -144,9 +144,9 @@
 """
 #################################################################################################
 
-2) El palíndromo mas grande en una serie
+2) El palíndromo mas grande obtenido de un producto
 
-""" A partir de t iteraciones, muestra el palindromo mas grande obtendo de la multiplicación de dos numeros de tres dígitos
+""" A partir de t iteraciones, encontrar el palíndromo más grande obtenido de la multiplicación de dos números de tres dígitos que sea menor a N.
 
     # Si las entradas son correctas, nos mostrará el palíndromo mas grande
 
