@@ -1,6 +1,6 @@
-# exercises_python
+# Ejercicios en Python 3
 
-1) Largest product in a series
+## 1) Largest product in a series
 
 El producto más grande en una serie
 A partir de 't' iteraciones, encontrar el producto más grande en una serie de 'k' digitos consecutivos en un número de 'n' digitos.
@@ -27,9 +27,9 @@ Ej.
   3150
   0
   
-2) Largest palindrome product
+## 2) Largest palindrome product
 
-2) El palíndromo mas grande obtenido de un producto
+El palíndromo mas grande obtenido de un producto
 
 A partir de t iteraciones, encontrar el palíndromo más grande obtenido de la multiplicación de dos números de tres dígitos que sea menor a N.
 
