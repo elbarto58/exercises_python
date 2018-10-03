@@ -1,0 +1,201 @@
+1) El producto más grande en una seria
+
+""" A partir de t iteraciones, muestra el producto mas grande en una serie de k digitos consecutivos en un número de N digitos.
+
+    # Si las entradas son correctas, nos mostrará el producto mas grande
+    
+    # entradas correctas, resultados correctos
+    >>> test_one()
+    2
+    10 5
+    3675356291
+    10 5
+    2709360626
+    3150
+    0
+    
+    >>> test_one()
+    4
+    6 5
+    123456
+    5 3
+    69532
+    8 7
+    25874102
+    9 3
+    258003690
+    720
+    270
+    0
+    162
+
+    # exit 0: Indica que las entradas son incorrectas    
+    >>> test_one()
+    a
+    exit (0)
+    >>> test_one()
+    1 2
+    exit (0)
+    >>> test_one()
+
+    exit (0)
+    
+    # exit 1: Indica que t (número de iteraciones) no está en el rango correcto
+    >>> test_one()
+    0
+    - exit(1) -
+    >>> test_one()
+    103
+    - exit(1) - 
+
+    # exit 2: Indica que el número de entradas son incorrectas, son diferentes de 2
+    >>> test_one()
+    2
+    - exit(2) -
+    41 3 4
+    - exit(2) -
+    >>> test_one()
+    3
+    10 5
+    1234567809
+    1 2 3
+    - exit(2) -
+
+    - exit(2) -
+    6720
+
+    #exit 3: Indica que k no está en el rango correcto 
+    test_one()
+    4
+    10 0
+    - exit(3) -
+    5 5
+    12345
+    6 8
+    - exit(3) -
+    3 1
+    123
+    120
+    3
+
+    #exit 4: Indica que n no está en el rango correcto
+    >>> test_one()
+    2
+    5 6
+    - exit(4) -
+    101 7
+    - exit(4) -
+
+    >>> test_one()
+    5
+    10 5
+    4343412390
+    5 7
+    - exit(4) -
+    6 3
+    341002
+    191 4
+    - exit(4) -
+    4 2
+    3345
+    576
+    12
+    20
+
+    #exit 5: Indica que el número de dígitos de entrada no coincide con n
+    >>> test_one()
+    2
+    10 5
+    2312003456
+    12 6
+    456321047
+    - exit (5) -
+    0
+
+    >>> test_one()
+    1
+    15 4
+    4587410005
+    - exit (5) -
+
+    >>> test_one()
+    7
+    6 5
+    123478
+    12 6
+    1258745698
+    - exit (5) -
+    6 3
+    369852
+    15 6
+    102547896325412
+    18 4
+    2541236784215651
+    - exit (5) -
+    8 6
+    69852140
+    3 2
+    3210
+    - exit (5) -
+    1344
+    432
+    60480
+    4320
+"""
+#################################################################################################
+
+2) El palíndromo mas grande en una serie
+
+""" A partir de t iteraciones, muestra el palindromo mas grande obtendo de la multiplicación de dos numeros de tres dígitos
+
+    # Si las entradas son correctas, nos mostrará el palíndromo mas grande
+
+
+    # entradas correctas, resultados correctos
+    >>> test_two()
+    2
+    101110
+    800000
+    101101
+    793397
+
+    >>> test_two()
+    3
+    158200
+    369852
+    201500
+    156651
+    367763
+    201102
+
+    # exit 0: Indica que las entradas son incorrectas
+    >>> test_two()
+    s
+    exit (0)
+    >>> test_two()
+    exit (0)
+    >>> test_two()
+    3 4
+    exit (0)
+    >>> test_two()
+    2
+    a
+    exit (0)
+    
+    # exit 1: Indica que t (número de iteraciones) no está en el rango correcto
+    >>> test_two()
+    0
+    exit (1)
+    >>> test_two()
+    101
+    exit (1)    
+    
+    # exit 2: Indica que n (número a evaluar) no está en el rango correcto
+    >>> test_two()
+    2
+    101100
+    exit (2)
+    258055
+    257752
+        
+"""
